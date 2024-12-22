@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="light_gray">#E0E0E0</color>
+    <color name="dark_gray">#757575</color>
+    <color name="primary_color">#3F51B5</color>
+    <color name="light_blue_400">#FF29B6F6</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="gray_400">#FFBDBDBD</color>
+    <color name="gray_600">#FF757575</color>
+    <!-- Example primary color -->
+    <!--        &lt;!&ndash; Add more colors as needed &#45;&#45;-->
+
+
+    <!-- res/values/colors.xml -->
+    <color name="primaryTextColor">#333333</color>
+    <color name="backgroundColor">#F5F5F5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#DDDDDD</color>
+
+        <color name="lightGray">#F5F5F5</color>
+        <color name="darkBlue">#003366</color>
+
+
+
+
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    android:orientation="vertical"
+    android:paddingStart="32dp"
+    android:paddingTop="64dp"
+    android:paddingEnd="32dp"
+    android:paddingBottom="32dp">
+
+    <!-- Button for Dog Products -->
+
+    <Button
+        android:id="@+id/btnDogProducts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/ic_back"
+        android:paddingStart="16dp"
+        android:paddingTop="12dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="12dp"
+        android:text="Dog Products"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <!-- Button for Cat Products -->
+    <!--    <Button-->
+    <!--        android:id="@+id/btnCatProducts"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Cat Products"-->
+    <!--        android:background="@drawable/button_background"-->
+    <!--        android:textColor="@android:color/white"-->
+    <!--        android:textSize="18sp"-->
+    <!--        android:paddingStart="16dp"-->
+    <!--        android:paddingEnd="16dp"-->
+    <!--        android:paddingTop="12dp"-->
+    <!--        android:paddingBottom="12dp"-->
+    <!--        android:layout_marginBottom="16dp" />-->
+
+    <!-- Image of Dog 1 -->
+    <ImageView
+        android:id="@+id/imgDog1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Dog 1"
+        android:src="@drawable/welcom" />
+
+    <!-- Image of Dog 2 -->
+    <ImageView
+        android:id="@+id/imgDog2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Dog 2"
+        android:src="@drawable/treats" />
+
+    <!-- Image of Dog 3 -->
+    <ImageView
+        android:id="@+id/imgDog3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Dog 3"
+        android:src="@drawable/treats" />
+
+</LinearLayout>
